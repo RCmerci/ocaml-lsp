@@ -48,7 +48,7 @@ let initializeInfo : Lsp.Initialize.Result.t =
       ; definitionProvider = true
       ; typeDefinitionProvider = true
       ; completionProvider =
-          Some { resolveProvider = true; triggerCharacters = [ "." ] }
+          Some { resolveProvider = false; triggerCharacters = [ "." ] }
       ; referencesProvider = true
       ; documentHighlightProvider = true
       ; documentSymbolProvider = true
